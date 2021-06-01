@@ -6,8 +6,25 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+  <!-- <link href="./assets/impress-demo.css" rel="stylesheet" /> -->
+  <link href="./assets/impress-common.css" rel="stylesheet" />
+  <link href="./assets/3D-rotations.css" rel="stylesheet" />
+
 </head>
 <body>
-  <app-root></app-root>
+ <app-root></app-root>
+
+  <script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+    }
+    </script>
+
+<!--
+  <script type="text/javascript" src="./assets/impress.js"></script>
+  <script>impress().init();</script> -->
 </body>
 </html>

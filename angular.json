@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/3D-rotations.css",
+              "src/assets/impress-common.css",
+              "src/assets/impress-demo.css"
             ],
-            "scripts": []
+            "scripts": [
+
+              "src/assets/impress.js"
+
+            ]
           },
           "configurations": {
             "production": {
